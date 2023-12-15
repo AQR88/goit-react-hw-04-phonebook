@@ -1,0 +1,30 @@
+.contacts {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  border: 3px solid greenyellow;
+  max-width: 400px;
+  padding: 10px;
+  list-style: none;
+}
+.label {
+  display: flex;
+  gap: 15px;
+}
+.list {
+  display: block;
+  width: 100%;
+}
+
+.btn {
+  width: 80px;
+  margin: 15px;
+  background-color: #6657e9;
+  border-radius: 5px;
+}
+
+.btn:hover,
+.btn:focus {
+  border: 1px solid rgb(0, 174, 255);
+  background-color: aqua;
+}

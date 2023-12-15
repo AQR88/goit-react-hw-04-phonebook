@@ -1,0 +1,11 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 300px;
+  margin: 0;
+}
+.title {
+  font-weight: normal;
+  margin: 0;
+}

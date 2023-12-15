@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  border: 3px solid greenyellow;
+  max-width: 400px;
+  padding: 10px;
+}
+.btn {
+  width: 100px;
+  background-color: #6657e9;
+  border-radius: 5px;
+}
+.label {
+  display: flex;
+  gap: 15px;
+}
+.btn:hover,
+.btn:focus {
+  border: 1px solid rgb(0, 174, 255);
+  background-color: aqua;
+}
