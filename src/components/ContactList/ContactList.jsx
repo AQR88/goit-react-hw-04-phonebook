@@ -4,7 +4,7 @@ const ContactList = ({ createList, onDelete }) => {
   const list = createList.map(({ id, name, number }) => {
     return (
       <li key={id} className={css.list}>
-        <span>{name}:</span>
+        <span className={css.span}>{name}:</span>
         <span>{number}</span>
         <button type="button" onClick={() => onDelete(id)} className={css.btn}>
           Delete
